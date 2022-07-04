@@ -5,3 +5,28 @@ body {
 h1 {
   font-size: 50px;
 }
+
+.orange-color {
+  color: orange;
+} 
+section {
+  display: flex;
+}
+
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 3%;
+}
+.half-width img {
+  width: 90%;
+}
+
+.link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, orange, tomato);
+  border-radius: 10px;
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+}
